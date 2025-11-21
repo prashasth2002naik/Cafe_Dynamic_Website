@@ -5,7 +5,7 @@ services:
     build:
       context: ./mompopcafe 
       dockerfile: Dockerfile
-    image: dvasanth26/mompopcafeapp:v1
+    image: prashasthnaik/mompopcafeapp:v1
     container_name: mompopcafeapp     
     ports:
       - "5001:80"  # Change port if necessary
